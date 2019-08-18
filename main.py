@@ -23,7 +23,6 @@ class TwitterBot(object):
             print("selected search text:", i)
             for twi in tweepy.Cursor(self.api.search, q=i).items(results_search):
                 try:
-                    # twi.retweet()
                     twi.favorite()
                     sleep(3)
                     print ("Liked")
@@ -31,11 +30,7 @@ class TwitterBot(object):
                     print(e)
                 except:
                     print("Unknow Exception come!!")
-                # if not twi.user.following and twi.user.screen_name!=screen_name:
-                #     twi.user.follow()
-                #     print('Followed user. Sleeping 15 seconds.')
-                #     sleep(15)
-        print("Complted")
+        print("Completed")
 
 
     @staticmethod
