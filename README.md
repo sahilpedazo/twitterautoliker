@@ -1,23 +1,26 @@
-# Twitter Bot Written in Python
+# Twitter Like Bot Written in Python
 
-Twitter bot that allows you to do automate your Retweet, like and follow. by using bot you can increase your twitter followers in day.
+A Python based twitter bot that allows you to do automate your likes to selected keywords for tweets in search results. By using this bot, you can connect to new people that share same kind of interests. By liking their post, you open up a new dimension to get noticed.
 
 
-1. Auto Retweet like follow by the kewords given on settings.. 
-2. Unfollow users that don't follow you back. 
-3. Delete Retweets of last 2 days.
-4. Search user by keyword and follow users.
+### The bot only allows AutoLike by the keywords provided in settings.py file.
+
 
 
 ### Prerequisites
-You will need Python and tweepy.
-Simply run the pip command like: 
+You need Python and pip installed on your computer.
+
+Once installed, simply clone the repository, unzip, navigate to the unzipped folder in command line and run this pip command : 
 
 `pip install -r requirements.txt`
 
-you need to change your settings on settings.ppy file.
+This will install all the required packages to your system.
+
+After this, you need to change your settings on settings.py file to run this bot
 
 ### Setting.py file
 
 In Settings.py file you need to change your twitter auth info. 
-I've labeled what you have to put and where to the best. 
+###### Instructions are provided in the Settings.py file.
+
+Once Settings.py is configured, simply run the 
