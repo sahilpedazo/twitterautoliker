@@ -21,6 +21,9 @@ After this, you need to change your settings on settings.py file to run this bot
 ### Setting.py file
 
 In Settings.py file you need to change your twitter auth info. 
-###### Instructions are provided in the Settings.py file.
+##### Instructions are provided in the Settings.py file.
 
-Once Settings.py is configured, simply run the 
+### Run the autoliker
+
+Once Settings.py is configured, simply run the main.py
+##### I suggest you to schedule the main.py file in the task scheduler to run on specified interval
